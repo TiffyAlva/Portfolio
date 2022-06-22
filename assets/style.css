@@ -1,0 +1,72 @@
+* section p {
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    font-style: initial;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+}
+
+  
+
+  body {
+    
+    color: #39a6b2;
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: url("https://thumb.photo-ac.com/4b/4bd9b45be334dc11f4e07ccc4a03c4de_t.jpeg");
+    
+  }
+
+
+  header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     
+}
+  
+
+
+  header h1 {
+    font-weight: bold;
+    font-size: 50px; /*Full name*/
+    color: black; 
+    margin: 0;
+    display: inline;
+  }
+
+
+  header a {
+    text-decoration: underline; 
+    color: black;
+  }
+
+  
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+  
+  
+  header nav ul li {
+    display: inline;
+  }
+
+
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px; 
+    
+  }
+
+  
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*border*/
+
