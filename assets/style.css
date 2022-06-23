@@ -1,4 +1,5 @@
-* section p {
+ /*sections*/
+*  section p {
     margin: 0;
     padding: 20px;
     box-sizing: border-box;
@@ -23,7 +24,9 @@
     padding: 20px 35px;
     background-color: #39a6b2;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-     
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
 }
   
 
@@ -62,7 +65,7 @@
     
   }
   
-  /*header end here*/
+/*header end here*/
   
 .content {
     width: 75%;
@@ -79,11 +82,11 @@
 
 /*size image*/
 #horiseon {
-  width: 700px;
-  height: 500px
+  width: 70%;
+  /* height: 500px */
   }
 
-  /*border*/
+/*border*/
 #profile {
 border: 10px;
 border-color: #39a6b2;
@@ -91,7 +94,7 @@ border-style: solid;
 
 }
  
- /*border*/ 
+/*border*/ 
 #horiseon {
   border: 10px;
   border-color:#39a6b2;
@@ -99,6 +102,34 @@ border-style: solid;
   
 }
 
+/*contact*/
+#informations {
+  display: flex;
+  flex-direction: row;
+
+}
+
+/*contact*/
+#informations li {
+  margin-right: 30px;
+}
+
+
+
+  /*media*/
+@media only screen and (max-width: 800px){
+ header {
+  flex-direction: column;
+ } 
+}
+   
+  /*media*/
+@media only screen and (max-width:600px){
+  #profile {
+    width: 80%; 
+    height: auto; 
+  }
+}
 
 
 
