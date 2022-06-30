@@ -7,4 +7,4 @@
 
 ![](./assets/images/Screenshot-Portfolio.jpg)
 
-Deployed Link:  https://tiffyalva.github.io/Module-2-Challenge/
+Deployed Link: https://tiffyalva.github.io/Portfolio/
