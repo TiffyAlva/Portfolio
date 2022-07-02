@@ -90,17 +90,17 @@
  .container {
   position: relative;
   text-align: center;
-  width: 40%
+  width: 18%
  } 
 
 .text-block {
   position: absolute;
-  bottom: 20px;
-  left: 20px;
+  bottom: 10px;
+  left: 10px;
   background-color: black;
   color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   
 }
 
@@ -169,7 +169,20 @@ border-style: solid;
       margin: 0
       
     }
-  }
-      
+    
+    }
+ 
+   /*media*/ 
+  @media only screen and (max-width: 369px){
+    .text-block{
 
-   
+  }   
+ }
+
+
+ 
+
+    
+  
+
+ 
